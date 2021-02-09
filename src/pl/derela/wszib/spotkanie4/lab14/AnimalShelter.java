@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class AnimalShelter {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         Animal [] shelter = new Animal [100];
 
@@ -24,5 +24,5 @@ public class AnimalShelter {
 
         System.out.println(shelter [0]);
 
-    }
+    }*/
 }

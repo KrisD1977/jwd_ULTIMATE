@@ -14,9 +14,7 @@ public class Car {
         this.prodYear = prodYear;
     }
 
-    public Car(String color) {
-        this.color = color;
-    }
+
 
 
 

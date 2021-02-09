@@ -6,6 +6,7 @@ public class InstanceCounter {
 
     public static int getNumberInstances() {
         return numberInstances;
+
     }
     private static void addInstance() {
         numberInstances++;

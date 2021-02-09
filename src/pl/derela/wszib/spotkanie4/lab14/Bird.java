@@ -1,13 +1,14 @@
 package pl.derela.wszib.spotkanie4.lab14;
 
+/*
 public class Bird extends Animal{
     private static String type = "Bird";
     private int instanceCounterBird = 0;
 
     @Override
-    public void getType() {
+    public String getType() {
 
-        System.out.println(Bird.type);
+        return type;
     }
 
     @Override
@@ -17,3 +18,4 @@ public class Bird extends Animal{
     }
 
 }
+*/

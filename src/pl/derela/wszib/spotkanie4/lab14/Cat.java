@@ -1,4 +1,5 @@
 package pl.derela.wszib.spotkanie4.lab14;
+/*
 
 public class Cat extends Animal{
     private static String type = "Cat";
@@ -17,3 +18,4 @@ public class Cat extends Animal{
     }
 
 }
+*/

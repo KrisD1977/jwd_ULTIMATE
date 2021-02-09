@@ -1,0 +1,19 @@
+package pl.derela.wszib.spotkanie4.powtorka;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class Datatxt implements DataProvider{
+    @Override
+    public String getData() {
+        try {
+            return new String(Files.readAllBytes(Paths.get("src/data.txt")));
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Błąd: " +e.getMessage());
+        }
+        return "błędne dane";
+    }
+}

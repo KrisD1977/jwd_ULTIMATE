@@ -14,7 +14,7 @@ public class HomeBudget {
     private static final String DB_HOST = "morfeusz.wszib.edu.pl";
     private static final int DB_PORT = 1433;
     private static final String DB_USER = "derela";
-    private static final String DB_PASS = "Yubey1983";
+    private static final String DB_PASS = "Y****";
     private static final String DB_NAME = "derela";
 
     private static final String INSERT_ENTRY_SQL =

@@ -7,8 +7,8 @@ public class ZadanieA {
 
     @Override
     public String toString() {
-        return "ZadanieA{" +
-                "isTrue=" + isTrue +
+        return "ZadanieA dla liczby " + x  +
+                ", parzystość = {" + isTrue +
                 '}';
     }
 
@@ -28,7 +28,7 @@ public class ZadanieA {
 
         ZadanieA a = new ZadanieA();
 
-        a.x =11;
+        a.x =55;
 
         a.showTrue();
         System.out.println(a);

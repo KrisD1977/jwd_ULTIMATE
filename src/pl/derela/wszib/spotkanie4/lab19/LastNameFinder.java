@@ -8,7 +8,7 @@ public class LastNameFinder {
 
     public static void main(String[] args) {
         String connectionUrl =
-                "jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;user=derela;password=Yubey1983;databaseName=AdventureWorks";
+                "jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;user=derela;password=Y*****;databaseName=AdventureWorks";
 
         String sql = "select top 10 * from Person.Contact WHERE LastName = 'Anderson'";
 
