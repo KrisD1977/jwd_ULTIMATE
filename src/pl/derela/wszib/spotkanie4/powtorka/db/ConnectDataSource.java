@@ -14,7 +14,7 @@ public class ConnectDataSource {
 
         SQLServerDataSource ds = new SQLServerDataSource();
         ds.setUser("derela");
-        ds.setPassword("Yubey1983");
+        ds.setPassword("Y****");
         ds.setServerName("morfeusz.wszib.edu.pl");
         ds.setPortNumber(1433);
         ds.setDatabaseName("derela");

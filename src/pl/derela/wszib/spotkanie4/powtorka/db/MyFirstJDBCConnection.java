@@ -6,7 +6,7 @@ public class MyFirstJDBCConnection {
 
     public static void main(String[] args) {
 
-        String connectionUrl = "jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;user=derela;password=Yubey1983;databaseName=AdventureWorks";
+        String connectionUrl = "jdbc:sqlserver://morfeusz.wszib.edu.pl:1433;user=derela;password=****;databaseName=AdventureWorks";
 
         String sql = "SELECT Top 15 *  FROM Person.Contact";
 
